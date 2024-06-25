@@ -93,6 +93,7 @@ public class App {
                 asignarMaquina(ultimoPedido);
             }
         }
+        
 
         System.out.println("Saliendo del programa.");
         scanner.close();
