@@ -27,7 +27,7 @@ public class MaquinaCafe extends Thread {
     }
 
     private void prepararAdicional(Cafe cafe) {
-        // Mostrar la lista de ingredientes según el tipo de café que se preparó
+        
         String ingredientes;
         switch (cafe.getTipo().toLowerCase()) {
             case "espresso":
